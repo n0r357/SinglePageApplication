@@ -1,0 +1,206 @@
+body {
+    min-width: 660px;
+    font-family: arial, sans-serif;
+    background: black;
+    word-wrap: break-word;
+  }
+
+  /* ::-webkit-scrollbar { 
+    display: none; 
+} */
+
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #maindiv {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #navdiv {
+    border-top: black 2px outset;
+    border-bottom: black 2px outset;
+    width: 98%;
+    min-width: 650px;
+    position: fixed;
+    filter: opacity(0.5);
+  }
+
+  #message{
+    margin: 0 auto 0 auto !important;
+  }
+
+  #navdiv p {
+    width: 98%;
+    background: black;
+    color: white;
+    margin-right: 15px;
+  }
+
+  #navdiv ul {
+    height: 90px;
+    background: black;
+    line-height: 90px;
+    color: white;
+  }
+
+  #navdiv ul a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+  }
+
+  #navdiv ul a:hover {
+    color: black;
+  }
+
+  #navdiv ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+  }
+
+  #navdiv ul li:hover {
+    cursor: pointer;
+    color: black;
+    filter: opacity(0.6);
+    background: dimgrey;
+    transition: all 0.40s;
+  }
+
+  #navdiv #logo, #navdiv a {
+    position: fixed;
+    top: 6px;
+    left: 6px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  #contentdiv {
+    height: 100%;
+    min-height: 700px;
+    overflow: auto;
+    text-align: center;
+  }
+
+  #contentdiv table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: auto;
+    color: white;
+  }
+
+  #contentdiv table .container {
+    height: 100%;
+    min-width: 600px;
+    margin: 42px auto;
+  }
+
+  #contentdiv table li {
+    list-style: upper-roman;
+    border-style: outset;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: inset;
+    line-height: 2em;
+    padding: 24px;
+    mix-blend-mode: normal;
+  }
+
+  #contentdiv table p {
+    font-family: arial;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  #footerdiv {
+    color: dimgrey;
+    font-size: 12px;
+    text-shadow: 2px 2px #000000;
+    width: 98%;
+    min-width: 650px;
+    position: fixed;
+    bottom: 3px;
+  }
+  
+  #footerdiv p {
+    border-top: black 1px outset;
+  }
+
+  #footerdiv ul {
+    filter: opacity(0.5);
+    background: black;
+    height: 26px;
+  }
+
+  #footerdiv ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  #footerdiv #copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+  }
+
+  #footerdiv #search {
+    position: fixed;
+    bottom: 8px;
+    left: 50px;
+  }
+  
+  #footerdiv #marvel, #date {
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #footerdiv #marvel a {
+    color: dimgrey;
+    text-decoration: none;
+  }
+
+  /* .container{
+    width: 600px;
+  } */
+
+  .comic-image{
+    border: 2px white outset;
+    filter: opacity(0.8);
+  }
+
+  .comic-info a{
+    color: white;
+    text-decoration: none !important;
+  }
+
+  #thesaurus{
+    background: black;
+    filter: opacity(0.6);
+    padding: 10px 0 10px 0;
+    position: fixed;
+    top: 145px;
+    left: 52px;
+    width: 200px;
+    height: 410px;
+    border: 1px white outset;
+    color: white;
+    overflow-y: scroll;
+  }
+
+  .thesaurus:hover{
+    cursor: pointer;
+  }
+  
